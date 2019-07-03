@@ -23,7 +23,12 @@ font-family: 'Bitter', serif;}
 .global-nav li a {color: #ffffff;}
 .global-nav li a:hover {border-bottom: 2px solid #ffffff; padding-bottom: 3px; text-decoration: none}
 
-#wrap{clear: both;}
+#wrap{
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
+}
 .content{width: 960px; margin: 0 auto;}
 
 footer{text-align: center; color: #ffffff; padding: 20px 0;}
@@ -68,9 +73,17 @@ background-attachment: fixed;
 background-size: cover;
 }
 
+#about{background-image: url(../images/bg-about.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+background-attachment: fixed;
+background-size: 100% auto;
+}
 
-
-
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
 
 
 
