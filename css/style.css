@@ -85,11 +85,35 @@ background-size: 100% auto;
   margin: 0 auto;
 }
 
+h1{
+  font-family: 'Bitter',serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
 
+h2{
+   font-family: 'Bitter', serif;
+  font-size: 24px;
+}
 
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
 
+#about.profile-txt{
+  width: 540px;
+  float: left;
+}
 
+#about.profile-txt span {
+  font-weight: bold;
+}
 
+#about.profile-image{
+  float: right;
+}
 
 
 
