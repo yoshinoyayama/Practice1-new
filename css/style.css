@@ -31,7 +31,7 @@ font-family: 'Bitter', serif;}
 }
 .content{width: 960px; margin: 0 auto;}
 
-footer{text-align: center; color: #ffffff; padding: 20px 0;}
+footer{text-align: center; color: #ffffff; padding: 20px 0; background-color: #767671;}
 footer small{font-size: 12px;}
 
 #index h1{font-size: 100px;line-height: 1; color: #ffffff;font-family: 'Bitter', serif;
@@ -102,18 +102,55 @@ h2{
   border-left: 7px solid #9cb4a4;
 }
 
-#about.profile-txt{
+#about .profile-txt{
   width: 540px;
   float: left;
 }
 
-#about.profile-txt span {
+#about .profile-txt span {
   font-weight: bold;
 }
 
-#about.profile-image{
+#about .profile-image{
   float: right;
 }
+
+.clearfix:after{
+content: "";
+display: block;
+clear: both;
+}
+
+section{
+  margin-bottom: 35px;
+}
+
+#about .career th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0 ;
+  border: 1px #CCCCCC solid;
+}
+
+#about .career td{
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
 
 
 
