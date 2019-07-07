@@ -35,7 +35,7 @@ footer{text-align: center; color: #ffffff; padding: 20px 0; background-color: #7
 footer small{font-size: 12px;}
 
 #index h1{font-size: 100px;line-height: 1; color: #ffffff;font-family: 'Bitter', serif;
-margin-bottom: 50px;}
+margin-bottom: 50px; border: none;}
 
 #index .content{margin-top: 150px;}
 
@@ -64,6 +64,7 @@ color: #009cd3;
   width: 960px;
   margin: 150px auto 0 auto ;
   text-align: left;
+  background-color: transparent;
 }
 
 #index{background-image: url(../images/bg-index.jpg);
@@ -143,7 +144,11 @@ table{
   border-collapse: collapse;
 }
 
-
+#index #wrap{
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
 
 
 
