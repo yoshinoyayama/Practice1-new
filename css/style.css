@@ -150,17 +150,42 @@ table{
   padding: 0;
 }
 
+#portfolio{background-image: url(../images/bg-portfolio-sp.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+background-attachment: fixed;
+background-size: 100% auto;
+}
 
+.main{
+  width: 700px;
+  margin: 0 10px;
+  float: left
+}
 
+.sidebar{
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family:  'Bitter', serif;
+}
 
+a img:hover{
+  opacity: 0.8;
+}
 
+.sidebar h2{
+  margin-bottom: 10px;
+}
 
+.sidebar ul{
+  font-size: 16px;
+  margin-left: 20px;
+}
 
-
-
-
-
-
+.sidebar ul a {
+  color: #333333;
+}
 
 
 
