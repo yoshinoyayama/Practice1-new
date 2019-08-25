@@ -206,8 +206,7 @@ background-size: 100% auto;
   margin-right: 0;
 }
 
-#video{
-background-image: url(../images/bg-video.jpg);
+#video {background-image: url(../images/bg-video.jpg);
 background-repeat: no-repeat;
 background-position: center top;
 background-attachment: fixed;
@@ -215,7 +214,122 @@ background-size: 100% auto;
 }
 
 
+#contact {
+background-image: url(../images/bg-contact.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+background-attachment: fixed;
+background-size: 100% auto;
+}
 
+#contact .access table{
+  float: left;
+}
+  
+ #contact .access th,
+#contact .access td {
+  text-align: left; 
+  vertical-align: top;
+  line-height: 2.5;
+}
+  
+#contact .access td {
+  padding-left: 30px;
+  }
 
+#contact .access iframe {
+  width: 460px;
+  float: right;}
 
+#contact .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
 
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0 ;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd{
+  padding: 10px 0 ;
+  
+}
+  
+#contact .form name{
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .email{
+  width: 300px;
+  height: 30px;
+}
+  
+#contact .form .tel{
+  width: 240px;
+  height: 30px;
+}
+  
+#contact .form .type{
+  width: 180px;
+  height: 30px;
+}
+  
+  #contact .form .message{
+  width: 660px;
+  height: 150px;
+}
+  
+ #contact .form button{
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  width: 120px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 3px solid #009cd3 ;
+   margin-left: 165px;
+} 
+#contact .form button:hover{
+background-color: #ffffff;
+color: #009cd3;
+  cursor: pointer;
+}
+  
+#contact .form .required:after{
+  content: "*";
+  color: #ff0000;
+}
+  
+#contact .form .attention{
+  margin: 20px 0 0 165px;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
